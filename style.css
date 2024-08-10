@@ -1,0 +1,146 @@
+
+html, body{
+    background-color: #f3e5d8;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: white;
+    width: 32%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.image img{
+    width: 100%;
+    border-radius: 7px;
+}
+.para1 h1{
+    font-size: 28px;
+}
+.para1 p{
+    font-size: 10.5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.2px;
+}
+.para2{
+    background-color: #fff7fc;
+    padding: 5px;
+    margin-top: 20px;
+}
+.para2 h4{
+    margin: 8px 5px -10px 10px;
+    padding: 5px;
+    color: #783852;
+}
+.para2 ul{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10.5px;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+    text-indent: 12px;
+}
+.para2 ul li{
+    margin-left: -6px;
+}
+.para3 h3{
+    color: #7c5345;
+}
+.para3 ul li{
+    margin-left: -20px;
+    font-size:10.5px ;
+    letter-spacing: 0.2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-indent: 12px;
+    line-height: 20px;
+}
+hr{
+    margin: 30px 0;
+}
+.para4 h3{
+    color:#7c5345 ;
+}
+.para4 ol li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10.5px;
+    margin:0 0 0 -25px;
+    line-height:18px;
+    letter-spacing: 0.2px;
+}
+.para4 ol li p{
+    margin-left: 10px;
+}
+.para5 h3{
+    color: #7c5345 ;
+}
+.para5 p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10.5px;
+    margin-top: -5px;
+    letter-spacing: 0.2px;
+}
+table{
+    font-size: 11px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:100% ;
+    border-collapse: collapse;
+    line-height: 30px;
+}
+tr:nth-child(odd), tr:nth-child(2){
+    border-bottom: 1px solid rgb(181, 181, 181);
+}
+td{
+    padding-left:20px ;
+}
+table td:nth-child(2){
+    color: #764e40;
+}
+
+
+/* for mobile */
+
+
+@media only screen and (max-width:450px){
+    .wrapper{
+        margin: -10px;
+    }
+    .container{
+        width:100%;
+        margin:auto;
+        padding: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
